@@ -1,14 +1,14 @@
 package com.example.features.pricing.resources;
 
 import io.micronaut.http.annotation.Controller;
-import io.micronaut.http.annotation.Get;
+import io.micronaut.http.annotation.Post;
 
 import java.math.BigDecimal;
 
 @Controller("/price")
 public class PriceResource {
 
-    @Get
+    @Post
     public BigDecimal calculatePrice() {
         return BigDecimal.ZERO;
     }
