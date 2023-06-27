@@ -1,16 +1,15 @@
-## Micronaut 3.9.4 Documentation
+# SW Java Backend Programming Session
 
-- [User Guide](https://docs.micronaut.io/3.9.4/guide/index.html)
-- [API Reference](https://docs.micronaut.io/3.9.4/api/index.html)
-- [Configuration Reference](https://docs.micronaut.io/3.9.4/guide/configurationreference.html)
-- [Micronaut Guides](https://guides.micronaut.io/index.html)
----
+## Technologies
 
-- [Shadow Gradle Plugin](https://plugins.gradle.org/plugin/com.github.johnrengelman.shadow)
-- [Micronaut Gradle Plugin documentation](https://micronaut-projects.github.io/micronaut-gradle-plugin/latest/)
-- [GraalVM Gradle Plugin documentation](https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html)
-## Feature http-client documentation
+Java + Micronaut backend.
 
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+## Task specifications
 
+The goal of the task is to have an endpoint which calculates the price of an insurance contract based on different criteria. The endpoint should accept params which will have an impact on the calculated price. 
 
+- Each contract can have a group of members
+- The cost for each adult is 2$/day
+- The cost for each child aged 5-17 is 1$/day
+- Each adult can add one child under 5 years for free. Up to a maximum of 2 free children per contract.
+- The contract length cannot be more than 28 days.
