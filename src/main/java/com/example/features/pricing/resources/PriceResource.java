@@ -5,7 +5,7 @@ import io.micronaut.http.annotation.Post;
 
 import java.math.BigDecimal;
 
-@Controller("/price")
+@Controller("/price-calculation")
 public class PriceResource {
 
     @Post
